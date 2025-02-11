@@ -170,7 +170,7 @@
       video.addEventListener('timeupdate', function () {
         var currentTime = video.currentTime;
 
-        if (currentTime >= 24) {
+        if (currentTime >= 30) {
           botonDireccion.style.opacity = '1';
           botonDireccion.style.pointerEvents = 'auto';
         } else {
@@ -178,7 +178,7 @@
           botonDireccion.style.pointerEvents = 'none';
         }
 
-        if (currentTime >= 24) {
+        if (currentTime >= 30) {
           botonAsistencia.style.opacity = '1';
           botonAsistencia.style.pointerEvents = 'auto';
         } else {
